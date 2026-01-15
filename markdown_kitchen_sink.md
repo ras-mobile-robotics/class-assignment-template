@@ -62,8 +62,35 @@ even when it comes at the beginning](.) of the line.
 | ok           | good `zoute` drop | yumm  |
 
 ### There's a horizontal rule below this.
+> Make sure there is a new line before and after `* * *`
 
 * * *
+
+### There's a horizontal rule below this as well. 
+> Make sure there is a new line before and after `---`
+
+---
+
+
+### Table of Contents (ToC)
+
+### `{:toc}`
+
+This is a placeholder that the system replaces with an actual list of links to your sections.
+
+* **Usage:** Place it directly under a `1. TOC` list item.
+* **Effect:** Automatically generates a nested list of every heading on your page.
+
+
+> Check out the TOC [here]({{site.baseurl}}/assignment/assignment1.html).
+
+### `{: .no_toc }`
+
+This is an **exclude** flag.
+
+* **Usage:** Place it immediately under any heading (usually your main `# Title`) that you **don't** want to appear in the ToC.
+* **Effect:** The heading stays on the page but is hidden from the generated list.
+
 
 ### Here is an unordered list:
 
@@ -237,6 +264,8 @@ Term2
 
 : Second description of Term1 and Term2,
   possibly more than one line
+
+---
 
 ### More code
 
