@@ -3,6 +3,7 @@ layout: default
 title: "Assignment 1: XX"
 parent: Assignments
 nav_order: 1
+math: mathjax
 ---
 
 # Assignment 1: XX
