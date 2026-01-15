@@ -189,6 +189,7 @@ Some text
 - level 1 item (ul)
 
 ### Small image
+Place all your image files (JPG, PNG, SVG) in the folder `assets/images/` within your repository.
 
 ![Alt text](../assets/images/logo.png){: width="200" }
 
