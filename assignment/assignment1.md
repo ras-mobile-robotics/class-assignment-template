@@ -3,7 +3,6 @@ layout: default
 title: "Assignment 1: XX"
 parent: Assignments
 nav_order: 1
-math: mathjax
 ---
 
 # Assignment 1: XX
@@ -31,8 +30,8 @@ p(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\rig
 $$
 
 Where:
-- $\mu$ is the mean (peak location).
-- $\sigma$ is the standard deviation (width of the "bell").
+- $$\mu$$ is the mean (peak location).
+- $$\sigma$$ is the standard deviation (width of the "bell").
 
 ---
 
